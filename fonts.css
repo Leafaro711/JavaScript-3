@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/audiowide-v9-latin-regular.eot");
+  src: local(""), url("./assets/fonts/audiowide-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/audiowide-v9-latin-regular.woff2") format("woff2"), url("./assets/fonts/audiowide-v9-latin-regular.woff") format("woff"), url("./assets/fonts/audiowide-v9-latin-regular.ttf") format("truetype"), url("./assets/fonts/audiowide-v9-latin-regular.svg#Audiowide") format("svg");
+}
+@font-face {
+  font-family: "Arizonia";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/arizonia-v11-latin-regular.eot");
+  src: local(""), url("./assets/fonts/arizonia-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/arizonia-v11-latin-regular.woff2") format("woff2"), url("./assets/fonts/arizonia-v11-latin-regular.woff") format("woff"), url("./assets/fonts/arizonia-v11-latin-regular.ttf") format("truetype"), url("./assets/fonts/arizonia-v11-latin-regular.svg#Arizonia") format("svg");
+}
+@font-face {
+  font-family: "Merienda One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/merienda-one-v11-latin-regular.eot");
+  src: local(""), url("./assets/fonts/merienda-one-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/merienda-one-v11-latin-regular.woff2") format("woff2"), url("./assets/fonts/merienda-one-v11-latin-regular.woff") format("woff"), url("./assets/fonts/merienda-one-v11-latin-regular.ttf") format("truetype"), url("./assets/fonts/merienda-one-v11-latin-regular.svg#MeriendaOne") format("svg");
+}
+@font-face {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/philosopher-v14-latin-regular.eot");
+  src: local(""), url("./assets/fonts/philosopher-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/philosopher-v14-latin-regular.woff2") format("woff2"), url("./assets/fonts/philosopher-v14-latin-regular.woff") format("woff"), url("./assets/fonts/philosopher-v14-latin-regular.ttf") format("truetype"), url("./assets/fonts/philosopher-v14-latin-regular.svg#Philosopher") format("svg");
+}
+@font-face {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/philosopher-v14-latin-700.eot");
+  src: local(""), url("./assets/fonts/philosopher-v14-latin-700.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/philosopher-v14-latin-700.woff2") format("woff2"), url("./assets/fonts/philosopher-v14-latin-700.woff") format("woff"), url("./assets/fonts/philosopher-v14-latin-700.ttf") format("truetype"), url("./assets/fonts/philosopher-v14-latin-700.svg#Philosopher") format("svg");
+}

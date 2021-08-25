@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/audiowide-v9-latin-regular.eot");
+  src: local(""), url("./assets/fonts/audiowide-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/audiowide-v9-latin-regular.woff2") format("woff2"), url("./assets/fonts/audiowide-v9-latin-regular.woff") format("woff"), url("./assets/fonts/audiowide-v9-latin-regular.ttf") format("truetype"), url("./assets/fonts/audiowide-v9-latin-regular.svg#Audiowide") format("svg");
+}
+@font-face {
+  font-family: "Arizonia";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/arizonia-v11-latin-regular.eot");
+  src: local(""), url("./assets/fonts/arizonia-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/arizonia-v11-latin-regular.woff2") format("woff2"), url("./assets/fonts/arizonia-v11-latin-regular.woff") format("woff"), url("./assets/fonts/arizonia-v11-latin-regular.ttf") format("truetype"), url("./assets/fonts/arizonia-v11-latin-regular.svg#Arizonia") format("svg");
+}
+@font-face {
+  font-family: "Merienda One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/merienda-one-v11-latin-regular.eot");
+  src: local(""), url("./assets/fonts/merienda-one-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/merienda-one-v11-latin-regular.woff2") format("woff2"), url("./assets/fonts/merienda-one-v11-latin-regular.woff") format("woff"), url("./assets/fonts/merienda-one-v11-latin-regular.ttf") format("truetype"), url("./assets/fonts/merienda-one-v11-latin-regular.svg#MeriendaOne") format("svg");
+}
+@font-face {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/philosopher-v14-latin-regular.eot");
+  src: local(""), url("./assets/fonts/philosopher-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/philosopher-v14-latin-regular.woff2") format("woff2"), url("./assets/fonts/philosopher-v14-latin-regular.woff") format("woff"), url("./assets/fonts/philosopher-v14-latin-regular.ttf") format("truetype"), url("./assets/fonts/philosopher-v14-latin-regular.svg#Philosopher") format("svg");
+}
+@font-face {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/philosopher-v14-latin-700.eot");
+  src: local(""), url("./assets/fonts/philosopher-v14-latin-700.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/philosopher-v14-latin-700.woff2") format("woff2"), url("./assets/fonts/philosopher-v14-latin-700.woff") format("woff"), url("./assets/fonts/philosopher-v14-latin-700.ttf") format("truetype"), url("./assets/fonts/philosopher-v14-latin-700.svg#Philosopher") format("svg");
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #00c3ff;
+  text-align: center;
+}
+body .header {
+  font-family: "Audiowide";
+  font-size: 4rem;
+}
+body .header__info {
+  margin: 2%;
+}
+body .main {
+  font-family: "Merienda One";
+  font-size: 2rem;
+}
+body .main .quiz {
+  background: #821e8f;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5%;
+}
+body .main .quiz__question {
+  color: ivory;
+  margin: 5%;
+}
+body .main .quiz__choice button {
+  margin: 3% auto;
+  font-family: "Philosopher";
+  font-size: 1.125rem;
+  width: 200px;
+  height: 50px;
+  background: whitesmoke;
+  border: #001aff 1px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+body .main .quiz__choice button:hover {
+  cursor: pointer;
+  opacity: 0.85;
+  color: blue;
+  box-shadow: 1px 1px 15px #7930ff;
+}
+body .main .quiz__answer-correct {
+  margin: 2%;
+  color: lime;
+}
+body .main .quiz__answer-false {
+  margin: 2%;
+  color: red;
+}
+body .footer {
+  font-family: "Arizonia";
+  font-size: 1.5rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+body .footer__info {
+  margin: 1%;
+}
