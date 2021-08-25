@@ -113,7 +113,7 @@ body .main .quiz__choice button {
   font-size: 1.125rem;
   width: 200px;
   height: 50px;
-  background: whitesmoke;
+  background: white;
   border: #001aff 1px solid;
   border-radius: 10px;
   -webkit-border-radius: 10px;
