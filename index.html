@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="header__info">
-            First Quiz game on JS! Enjoy it!
-        </div>
-    </header>
-    <main class="main">
-        <div class="quiz">
-            <div class="quiz__question">
-                Question #1: What is your name?
-            </div>
-            <div class="quiz__choice">
-                <button id="A" onclick="changeColor(this)" >A) Alex</button>
-                <button id="B">B) Max</button>
-                <button id="C">C) David</button>
-                <button id="D">D) John</button>
-            </div>
-            <div class="quiz__answer">
-                <div class="quiz__answer-correct" id="true">Correct!</div>
-                <div class="quiz__answer-false" id="false">False!</div>
-            </div>
-        </div>
-    </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>First Quiz game on JS! Enjoy it!</h1>
+      <div class="quiz-container">
+        <div id="quiz"></div>
+      </div>
+      <button id="previous">Previous Question</button>
+      <button id="next">Next Question</button>
+      <button id="submit">Submit Quiz</button>
+      <div id="results"></div>
+    </div>
     <footer class="footer">
-        <div class="footer__info">
-            25.8.2021 Lefaro711™ quiz game. All rights reserved.©
-        </div>
+      <div class="footer__info">
+        25.8.2021 Lefaro711™ quiz game. All rights reserved.©
+      </div>
     </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

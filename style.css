@@ -83,31 +83,41 @@ table {
 }
 
 body {
-  background: #00c3ff;
+  font-size: 20px;
+  font-family: "Philosopher";
+  color: #333;
+  font-weight: 300;
   text-align: center;
+  background-color: #f8f6f0;
 }
-body .header {
+
+h1 {
   font-family: "Audiowide";
-  font-size: 4rem;
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #5b4ea3;
+  color: #fff;
 }
-body .header__info {
-  margin: 2%;
+
+.question {
+  font-size: 30px;
+  margin-bottom: 3%;
 }
-body .main {
-  font-family: "Merienda One";
-  font-size: 2rem;
+
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
 }
-body .main .quiz {
-  background: #821e8f;
-  width: 70%;
-  margin: 0 auto;
-  padding: 5%;
+
+.answers label {
+  display: block;
+  margin-bottom: 10px;
 }
-body .main .quiz__question {
-  color: ivory;
-  margin: 5%;
-}
-body .main .quiz__choice button {
+
+button {
   margin: 3% auto;
   font-family: "Philosopher";
   font-size: 1.125rem;
@@ -121,28 +131,43 @@ body .main .quiz__choice button {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-body .main .quiz__choice button:hover {
+button:hover {
   cursor: pointer;
   opacity: 0.85;
-  color: blue;
+  color: white;
   box-shadow: 1px 1px 15px #7930ff;
+  background-color: #9c67ff;
 }
-body .main .quiz__answer-correct {
-  margin: 2%;
-  color: lime;
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
-body .main .quiz__answer-false {
-  margin: 2%;
-  color: red;
+
+.active-slide {
+  opacity: 1;
+  z-index: 2;
 }
-body .footer {
+
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.footer {
+  position: fixed;
   font-family: "Arizonia";
   font-size: 1.5rem;
-  position: fixed;
   text-align: center;
   width: 100%;
   bottom: 0;
 }
-body .footer__info {
+.footer__info {
   margin: 1%;
 }

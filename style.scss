@@ -1,73 +1,83 @@
-@import 'fonts.scss';
-@import 'reset.scss';
+@import "fonts.scss";
+@import "reset.scss";
 
-body{
-    background: rgb(0, 195, 255);
-    text-align: center;
-    .header{
-        &__info{
-            margin: 2%;
-        };
-        font-family: "Audiowide";
-        font-size: 4rem;
-    }
-    .main{
-        font-family: "Merienda One";
-        font-size: 2rem;
-        .quiz{
-            background: rgb(130, 30, 143);
-            width: 70%;
-            margin: 0 auto;
-            padding: 5%;
-            &__question{
-                color: ivory;
-                margin: 5%;
-            };
-            &__choice{
-                button{
-                    margin: 3% auto;
-                    font-family: 'Philosopher';
-                    font-size: 1.125rem;
-                    width: 200px;
-                    height: 50px;
-                    background: white;
-                    border: rgb(0, 26, 255) 1px solid;
-                    border-radius: 10px;
-                    -webkit-border-radius: 10px;
-                    -moz-border-radius: 10px;
-                    -ms-border-radius: 10px;
-                    -o-border-radius: 10px;
-                    &:hover{
-                        cursor: pointer;
-                        opacity: 0.85;
-                        color: blue;
-                        box-shadow: 1px 1px 15px rgb(121, 48, 255);
-                    }
-                }
-            };
-            &__answer{
-                &-correct{
-                    margin: 2%;
-                    color: rgb(0, 255, 0)
-                };
-                &-false{
-                    margin: 2%;
-                    color: rgb(255, 0, 0);
-                }
-            };
-        }
-    }
-    .footer{
-        font-family: "Arizonia";
-        font-size: 1.5rem;
-        position: fixed;
-        text-align: center;
-        width: 100%;
-        bottom: 0;
-        &__info{
-            margin: 1%;
-        }
-    }
-};
-
-
+body {
+  font-size: 20px;
+  font-family: "Philosopher";
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+h1 {
+  font-family: "Audiowide";
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(91, 78, 163);
+  color: #fff;
+}
+.question {
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label {
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  margin: 3% auto;
+  font-family: "Philosopher";
+  font-size: 1.125rem;
+  width: 200px;
+  height: 50px;
+  background: white;
+  border: rgb(0, 26, 255) 1px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    color: white;
+    box-shadow: 1px 1px 15px rgb(121, 48, 255);
+    background-color: rgb(156, 103, 255);
+  }
+}
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+.footer {
+  position: fixed;
+  font-family: "Arizonia";
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  &__info {
+    margin: 1%;
+  }
+}
